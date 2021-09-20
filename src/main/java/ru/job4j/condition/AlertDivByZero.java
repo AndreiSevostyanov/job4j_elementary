@@ -7,7 +7,6 @@ public class AlertDivByZero {
         possibleDiv(-1);
     }
 
-    @SuppressWarnings("checkstyle:RightCurly")
     public static void possibleDiv(int number) {
         boolean result = number == 0;
         if (result) {
